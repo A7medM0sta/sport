@@ -5,7 +5,7 @@ from utils import (read_video,
                    convert_pixel_distance_to_meters
                    )
 import constants
-from trackers import PlayerTracker,BallTracker
+from trackers import PlayerTracker, BallTracker
 from court_line_detector import CourtLineDetector
 from mini_court import MiniCourt
 import cv2
